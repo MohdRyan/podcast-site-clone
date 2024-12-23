@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .placeholder-gradient {
+    color: transparent;
+    background-image: linear-gradient(to right, #ec4899, #f97316);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+@keyframes bounce-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 1s infinite;
+}
