@@ -1,10 +1,12 @@
+import img from '../../public/images/Podcast-Logo.png'
+
 const MainNav = () => {
   return (
     <>
       <div className="w-full h-auto flex sticky top-0 z-50 ">
         <div className="w-[25%] h-auto bg-blue-900 flex justify-center items-center  ">
           <div>
-            <img src="\images\Podcast-Logo.png" alt="" />
+            <img src={img} alt="" />
           </div>
         </div>
         <div className="w-[50%] h-auto bg-blue-900 flex items-center justify-center text-white text-xs font-bold  ">
@@ -17,7 +19,7 @@ const MainNav = () => {
               <span className="absolute left-0 bottom-0 w-0 h-[3px] bg-gradient-to-r from-pink-500 to-orange-500 group-hover:w-full transition-all duration-700"></span>
             </button>
             <button className="relative group ">
-              PAGES
+              PAGES 
               <span className="absolute left-0 bottom-0 w-0 h-[3px] bg-gradient-to-r from-pink-500 to-orange-500 group-hover:w-full transition-all duration-700"></span>
             </button>
 
@@ -30,10 +32,10 @@ const MainNav = () => {
               <span className="absolute left-0 bottom-0 w-0 h-[3px] bg-gradient-to-r from-pink-500 to-orange-500 group-hover:w-full transition-all duration-700"></span>
             </button>
             <button className="relative group ">
-              NEWS
+              News 
               <span className="absolute left-0 bottom-0 w-0 h-[3px] bg-gradient-to-r from-pink-500 to-orange-500 group-hover:w-full transition-all duration-700"></span>
             </button>
-
+            
             <button className="relative group">
               CONTACT
               <span className="absolute left-0 bottom-0 w-0 h-[3px] bg-gradient-to-r from-pink-500 to-orange-500 group-hover:w-full transition-all duration-700"></span>
