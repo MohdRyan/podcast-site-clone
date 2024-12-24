@@ -2,8 +2,8 @@ const NewsLetter = () => {
   return (
     <>
       <div className="bg-gradient-to-tl from-blue-200 to-pink-200 h-auto py-[4rem] w-full flex justify-center items-center">
-        <div className="w-[80%] h-auto flex  ">
-          <div className="w-[50%] space-y-4 ">
+        <div className="w-[80%] h-auto flex max-[1000px]:flex-col ">
+          <div className="w-[50%] space-y-4 max-[1000px]:w-full max-[1000px]:py-5   ">
             <div className="w-full h-auto font-semibold ">
               GET NOTIFIED ABOUT LATEST EPISODE
             </div>
@@ -16,14 +16,14 @@ const NewsLetter = () => {
             </div>
           </div>
 
-          <div className="w-[50%] flex justify-center items-center  ">
-            <div className="flex gap-2 ">
+          <div className="w-[50%] flex justify-center items-center max-[1000px]:w-[80%] ">
+            <div className="w-full flex justify-evenly  ">
               <input
                 type="text "
                 placeholder="Enter Your Email "
-                className="py-3 px-[7rem] rounded-3xl text-black"
+                className="py-3 px-[6rem] rounded-3xl text-black max-[1000px]:px-[3rem] max-[500px]:px-0"
               />
-              <button className="bg-gradient-to-r from-orange-300 to-pink-500  px-4 py-1 rounded-full text-white font-semibold uppercase">
+              <button className="bg-gradient-to-r from-orange-300 to-pink-500  px-4 py-1 rounded-full text-white font-semibold uppercase max-[500px]:text-xs  ">
                 Subscribe
               </button>
             </div>

@@ -55,7 +55,7 @@ const Testimonial = () => {
             <h1 className="text-lg uppercase">Testimonial</h1>
           </div>
           <div>
-            <h1 className="text-4xl font-bold bg-gradient-to-b from-pink-500 to-orange-500 text-transparent bg-clip-text uppercase">
+            <h1 className="text-4xl font-bold bg-gradient-to-b from-pink-500 to-orange-500 text-transparent bg-clip-text uppercase max-[400px]:text-3xl">
               what people say!
             </h1>
           </div>

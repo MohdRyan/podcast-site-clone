@@ -1,19 +1,19 @@
 const HeroPage = () => {
   return (
     <>
-      <div className="bg-[url('https://images.pexels.com/photos/17722676/pexels-photo-17722676/free-photo-of-microphone-at-night.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] min-h-screen w-full text-white flex  items-center justify-end  bg-no-repeat bg-cover bg-bottom  ">
-        <div className=" flex flex-col w-[50%] mr-16 ">
+      <div className="bg-[url('https://images.pexels.com/photos/17722676/pexels-photo-17722676/free-photo-of-microphone-at-night.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]  w-full h-[40rem] text-white flex justify-end bg-no-repeat bg-center bg-cover max-[600px]:justify-center max-[800px]:h-[35rem]  ">
+        <div className="flex flex-col w-[50%] max-[600px]:w-[80%] mt-[6rem] max-[800px]:mt-[3rem]">
           <div className="flex gap-3  text-xs font-semibold">
             <div>Rating 8.0</div>
             <div> 2023</div>
             <div>Motivational</div>
           </div>
-          <div className="uppercase text-8xl font-extrabold flex flex-col  ">
+          <div className="uppercase text-8xl font-extrabold flex flex-col  max-[1024px]:text-6xl">
             <h1>The </h1>
             <h1>Inspire </h1>
             <h1>Podcast </h1>
           </div>
-          <div className="text-md font-semibold w-[80%] py-5 ">
+          <div className="text-md font-semibold w-[80%] py-5  max-[1024px]:text-sm max-[600px]:w-full">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Veritatis et accusamus id dicta libero aperiam reiciendis

@@ -1,9 +1,9 @@
 const Featured = () => {
   return (
     <>
-      <div className="bg-slate-900 w-full h-auto text-white py-[5rem] ">
+      <div className="bg-slate-900 w-full h-auto text-white py-[4rem] ">
         <div className="w-full h-auto   flex justify-center items-center ">
-          <div className="w-[80%] h-auto  ">
+          <div className="w-[80%] h-auto ">
             <div className="flex-col space-y-3 ">
               <div className=" uppercase w-full text-md font-semibold">
                 <h4>Best shows this week</h4>

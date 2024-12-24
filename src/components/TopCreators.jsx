@@ -2,17 +2,17 @@ const TopCreators = () => {
   return (
     <div className="w-full h-auto mt-12 mb-[3rem]">
       {/* Heading Section */}
-      <div className="flex flex-col gap-y-6 text-black justify-center items-center">
-        <p className="uppercase font-semibold">top creators of this week</p>
-        <h1 className="text-3xl uppercase font-bold bg-gradient-to-b from-pink-500 to-orange-500 text-transparent bg-clip-text">
+      <div className="flex flex-col gap-y-6 text-black justify-center items-center max-[600px]:gap-y-2 ">
+        <p className="uppercase font-semibold  ">top creators of this week</p>
+        <h1 className="text-3xl uppercase font-bold bg-gradient-to-b from-pink-500 to-orange-500 text-transparent bg-clip-text max-[600px]:text-2xl">
           meet the podcast host
         </h1>
       </div>
 
       {/* Creators Section */}
-      <div className="w-full h-auto flex justify-evenly items-center mt-16">
+      <div className="w-full h-auto flex justify-evenly items-center mt-16 max-[600px]:mt-4">
         {/* Creator 1 */}
-        <div className="relative w-[20%] flex flex-col items-center">
+        <div className="relative w-[20%] flex flex-col items-center ">
           <div className="relative w-auto h-auto  group">
             <img
               src="https://preview.vwthemesdemo.com/vw-audio-podcast/wp-content/uploads/sites/270/2023/10/team4.png"
@@ -34,8 +34,12 @@ const TopCreators = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center items-center my-3">
-            <p className="font-semibold cursor-pointer ">Christ Jemkede</p>
-            <p className="uppercase text-xs font-semibold">creator</p>
+            <p className="font-semibold cursor-pointer max-[450px]:text-xs  ">
+              Christ Jemkede
+            </p>
+            <p className="uppercase text-xs font-semibold max-[450px]:text-xs max-[450px]:lowercase">
+              creator
+            </p>
           </div>
         </div>
 

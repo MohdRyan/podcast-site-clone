@@ -74,10 +74,10 @@ const Cards = () => {
   };
 
   return (
-    <div className="bg-gradient-to-bl from-slate-600 to-indigo-950 h-screen">
+    <div className="bg-gradient-to-bl from-slate-600 to-indigo-950 ">
       {/* Header Section */}
       <div className="w-full h-auto flex justify-center">
-        <div className="w-[80%] h-auto flex flex-col justify-center items-center text-white mt-14">
+        <div className="w-[80%] h-auto flex flex-col justify-center items-center text-white mt-14 ">
           <div>
             <h1 className="text-lg">RELEASED THIS WEEK</h1>
           </div>
@@ -90,17 +90,17 @@ const Cards = () => {
       </div>
 
       {/* Carousel Section */}
-      <div className="max-w-7xl mx-auto py-10 px-4">
+      <div className="max-w-7xl mx-auto py-10 px-4 ">
         <Slider {...settings}>
           {cardData.map((card, index) => (
             <div key={index} className="px-3">
-              <div className="bg-white bg-opacity-5 rounded-sm   overflow-hidden shadow-lg group transition-transform transform hover:scale-110">
+              <div className="bg-white bg-opacity-5 rounded-sm   overflow-hidden shadow-lg group transition-transform transform hover:scale-110 ">
                 <img
                   src={card.imageUrl} // Use the dynamic image URL
                   alt={`Card ${index + 1}`}
-                  className="w-full h-60 object-cover"
+                  className="w-full h-60 object-cover  "
                 />
-                <div className="p-8 text-white">
+                <div className="p-8 text-white max-[1030px]:hidden ">
                   <p className="text-sm text-white font-semibold ">
                     {card.author}
                   </p>

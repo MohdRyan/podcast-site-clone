@@ -55,7 +55,7 @@ const CardTwo = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-r from-slate-600 to-slate-900 h-screen">
+    <div className="bg-gradient-to-r from-slate-600 to-slate-900 ">
       {/* Header Section */}
       <div className="w-full h-auto flex justify-center">
         <div className="w-[80%] h-auto flex flex-col justify-center items-center text-white mt-14">
