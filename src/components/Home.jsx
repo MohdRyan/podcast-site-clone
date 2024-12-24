@@ -18,16 +18,16 @@ const Home = () => {
       <TopNav />
       <MainNav />
       <HeroPage />
-      {/* <Cards /> */}
-      {/* <CardTwo /> */}
+      <Cards />
+      <CardTwo />
       <Creator />
       <TopCreators />
-      {/* <Featured /> */}
+      <Featured />
       <Testimonial />
       <SupportCreators />
       <RecentPosts />
       <NewsLetter />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

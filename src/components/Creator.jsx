@@ -1,7 +1,7 @@
 const Creator = () => {
   return (
     <>
-      <div className="bg-indigo-800  w-full text-white flex pt-20 max-[1000px]:flex-col  ">
+      <div className="bg-indigo-800  w-full text-white flex pt-20 max-[1000px]:flex-col py-6  ">
         <div className="w-[50%] max-[1000px]:w-full max-[1000px]:flex max-[1000px]:flex-col max-[1000px]:items-center max-[1000px]:justify-center">
           <div className="uppercase text-md font-semibold py-4 pl-20 max-[1000px]:pl-0">
             about the creator

@@ -1,9 +1,34 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useState, useEffect } from "react";
 
 const Cards = () => {
-  // Array of objects containing data for each card
+  const [slidesToShow, setSlidesToShow] = useState(4);
+
+  // Function to update slidesToShow based on window width
+  const updateSlidesToShow = () => {
+    const width = window.innerWidth;
+    if (width < 768) {
+      setSlidesToShow(1);
+    } else if (width < 1024) {
+      setSlidesToShow(2);
+    } else {
+      setSlidesToShow(4);
+    }
+  };
+
+  // useEffect to listen to resize events
+  useEffect(() => {
+    updateSlidesToShow(); // Set initial value
+    window.addEventListener("resize", updateSlidesToShow);
+
+    // Cleanup listener on component unmount
+    return () => {
+      window.removeEventListener("resize", updateSlidesToShow);
+    };
+  }, []);
+
   const cardData = [
     {
       imageUrl:
@@ -66,7 +91,7 @@ const Cards = () => {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: slidesToShow, // Use dynamic value
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,

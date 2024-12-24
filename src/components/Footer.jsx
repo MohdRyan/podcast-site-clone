@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
     <>
-      <div className="bg-slate-900 h-[60vh] w-full flex justify-center py-10 ">
-        <div className="w-[80%] h-auto grid  grid-cols-4 text-white gap-x-10">
-          <div className="gap-y-6 flex  flex-col">
+      <div className="bg-slate-900 h-auto w-full flex justify-center py-10 ">
+        <div className="w-[80%] h-auto flex gap-4 flex-wrap justify-center text-white gap-x-10 max-[]">
+          <div className="w-[15rem] gap-y-6 flex flex-col">
             <h1 className="uppercase text-xl font-semibold ">about us </h1>
             <p>
               Ut enim ad minim veniam, quis nostrud exercitation ullamco.
@@ -28,7 +28,7 @@ const Footer = () => {
               Buy Now
             </button>
           </div>
-          <div className="flex flex-col gap-y-6">
+          <div className="w-[15rem] flex flex-col gap-y-6">
             <h1 className="uppercase text-xl font-semibold ">get in touch</h1>
             <p className="cursor-pointer">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse eos
