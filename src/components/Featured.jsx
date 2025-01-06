@@ -73,7 +73,7 @@ const Featured = () => {
                   />
                   <div>
                     <h1 className="font-light">Dan Harmone</h1>
-                    <h1 className="text-base  cursor-pointer ">
+                    <h1 className="text-base  cursor-pointer "> 
                       Best Tech in the industry
                     </h1>
                   </div>

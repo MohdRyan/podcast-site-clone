@@ -34,10 +34,10 @@ const TopCreators = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center items-center my-3">
-            <p className="font-semibold cursor-pointer max-[450px]:text-xs  ">
-              Christ Jemkede
+            <p className="font-semibold cursor-pointer max-[450px]:text-sm  ">
+              Christ Paul
             </p>
-            <p className="uppercase text-xs font-semibold max-[450px]:text-xs max-[450px]:lowercase">
+            <p className="uppercase text-xs font-semibold max-[450px]:text-xs ">
               creator
             </p>
           </div>
@@ -65,8 +65,10 @@ const TopCreators = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center my-3">
-            <p className="font-semibold cursor-pointer ">Brad Pitkar</p>
+          <div className="flex flex-col justify-center items-center my-3 ">
+            <p className="font-semibold cursor-pointer max-[450px]:text-sm ">
+              Brad Pitkar
+            </p>
             <p className="uppercase text-xs font-semibold">creator</p>
           </div>
         </div>
@@ -94,7 +96,9 @@ const TopCreators = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center items-center my-3">
-            <p className="font-semibold cursor-pointer ">Anjelina Joseph</p>
+            <p className="font-semibold cursor-pointer max-[450px]:text-sm  ">
+              Alena Jos
+            </p>
             <p className="uppercase text-xs font-semibold">creator</p>
           </div>
         </div>
@@ -122,7 +126,9 @@ const TopCreators = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center items-center my-3">
-            <p className="font-semibold cursor-pointer ">Shalini Tiwari</p>
+            <p className="font-semibold cursor-pointer max-[450px]:text-sm  ">
+              Tiwari 
+            </p>
             <p className="uppercase text-xs font-semibold">creator</p>
           </div>
         </div>

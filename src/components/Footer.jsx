@@ -13,7 +13,7 @@ const Footer = () => {
               quae abillo.
             </p>
             <h1 className="uppercase text-xl font-semibold ">
-              my social profile{" "}
+              my social profile
             </h1>
           </div>
           <div className="flex flex-col gap-y-4">
